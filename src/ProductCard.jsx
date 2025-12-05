@@ -6,6 +6,10 @@ export default function ProductCard() {
     description: "A sample product for Git workflow practice",
   };
 
+  const handleAddToCart = () => {
+    console.log(`Product  added to cart.`);
+  }
+
   return (
     <div style={{border:"1px solid #ccc", padding:"16px", width:"250px"}}>
       <h2>{product.name}</h2>
