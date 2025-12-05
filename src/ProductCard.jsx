@@ -8,6 +8,7 @@ export default function ProductCard() {
 
   const handleAddToCart = () => {
     console.log(`Product  added to cart.`);
+    console.log(`Product ID: ${product.id}`);
   }
 
   return (
