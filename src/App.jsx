@@ -1,7 +1,6 @@
 import './App.css'
 import ProductCard from './ProductCard'
 import SampleCard from './SampleCard'
-import Login from './Login'
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
     <main>
       <ProductCard />
       <SampleCard />
-      <Login />
     </main>
   )
 }
